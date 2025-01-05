@@ -1,0 +1,15 @@
+# Python virtual environment
+venv/
+.env/
+.env
+.env.example
+# Node modules
+node_modules/
+
+# OS-specific files
+.DS_Store
+
+# Output files
+output/
+*.pptx
+*.pdf

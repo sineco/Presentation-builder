@@ -4,60 +4,76 @@ paginate: true
 theme: default
 ---
 
-```markdown
-# Convolutional Neural Networks
-## An Overview
+# Convolutional Neural Networks (CNNs)
 
 ---
 
-## What is a Convolutional Neural Network?
+## What are CNNs?
 
-- A class of deep learning models
-- Primarily used for image data
-- Inspired by the human visual system
+- Specialized neural networks for image processing
+- Inspired by the visual cortex of animals
+- Efficient at recognizing patterns and features
 
 ---
 
-## Key Components
+## Key Components of CNNs
 
-- **Convolutional Layers**: Extract features from input images
-- **Pooling Layers**: Reduce dimensionality, retain important features
-- **Fully Connected Layers**: Perform classification based on extracted features
+- **Convolutional Layers**
+  - Apply filters to input images
+  - Extract features like edges and textures
+
+- **Activation Functions**
+  - Non-linear functions (e.g., ReLU) introduced after convolution
+  - Adds non-linearity to the model
+
+- **Pooling Layers**
+  - Reduce dimensionality
+  - Common techniques: Max Pooling, Average Pooling
+
+---
+
+## CNN Architecture
+
+1. **Input Layer**
+   - Raw image data
+
+2. **Convolutional Layer**
+   - Filters applied to detect features
+
+3. **Activation Layer**
+   - Introduces non-linearity
+
+4. **Pooling Layer**
+   - Down-sampling features
+
+5. **Fully Connected Layer**
+   - Combines features for final classification
+
+---
+
+## Applications of CNNs
+
+- Image classification (e.g., identifying objects)
+- Object detection (e.g., locating items in images)
+- Image segmentation (e.g., partitioning images into segments)
+- Facial recognition
+
+![CNN Architecture](https://miro.medium.com/v2/resize:fit:1200/format:webp/1*qJ0X8MYyK0itFvirX1Rdqw.png)
 
 ---
 
 ## Advantages of CNNs
 
 - Automatic feature extraction
-- Less preprocessing compared to traditional methods
-- State-of-the-art performance in computer vision tasks
-
----
-
-## Applications of CNNs
-
-- Image Classification
-- Object Detection
-- Image Segmentation
-- Facial Recognition
-
----
-
-## Visualization of a CNN Architecture
-
-![CNN Architecture](https://miro.medium.com/v2/resize:fit:1200/format:webp/1*TQdEv5i2Vd7yKl6-Dzoq6A.png)
+- Fewer parameters compared to traditional networks
+- High accuracy and robustness in image tasks
 
 ---
 
 ## Conclusion
 
-- CNNs revolutionize the field of computer vision
-- Continues to evolve with advancements in technology
-- Fundamental for tasks involving spatial data
+- CNNs have revolutionized computer vision
+- Essential in various applications from autonomous vehicles to medical imaging
+- Continuous evolution and improvements in architecture are ongoing
 
 ---
-
-## Questions?
-```
-
-This Markdown code creates a simple presentation about Convolutional Neural Networks (CNNs) using the Marp syntax. You can view or present it using a compatible Markdown viewer or Marp application.

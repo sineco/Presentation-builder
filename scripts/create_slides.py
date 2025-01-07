@@ -12,8 +12,9 @@ def generate_slide_markdown():
     """Ask the LLM to produce slides in Markdown format using the Marp style."""
     prompt = (
         "Create a short Marp presentation about Convolutional Neural Networks. "
-        "Use '---' to separate slides. Include a title slide, some bullet points, "
-        "and at least one image reference. Provide the final answer in valid Markdown."
+        "Use '---' to separate slides, but do NOT wrap the entire answer in code fences. "
+        "Provide the final answer in valid Markdown with headings, bullet points, "
+        "and at least one image reference."
     )
     # 1. Configure your OpenAI API key
     openai_api_key = get_openai_api_key()
